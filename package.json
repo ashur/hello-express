@@ -1,0 +1,16 @@
+{
+  "name": "hello-express",
+  "version": "0.1.0",
+  "main": "src/server.js",
+  "scripts": {
+	"serve": "node src/server.js",
+    "start": "onchange -i -k 'src/**/*.js' -- npm run serve"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "onchange": "^6.0.0"
+  }
+}
